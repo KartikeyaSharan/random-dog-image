@@ -65,6 +65,17 @@ img
     cursor:pointer;
 }
 
+@media screen and (max-width: 500px) 
+{
+	.container 
+    {
+        margin-top: 25vh;
+		width: 60vw;
+        height: 50vh;
+        grid-template-rows: repeat(5,10vh);
+	}
+}
+
 
 
 
